@@ -11,7 +11,7 @@ int main() {
     float amount, total = 0.0;
 
     // i. Open the file for reading
-    file = fopen("sales.txt", "r");
+    file = fopen("D://C files//sales.txt", "r");
     if (file == NULL) {
         printf("Error: Could not open sales.txt\n");
         return 1;
@@ -29,4 +29,5 @@ int main() {
     printf("Total sales for the day: %.2f\n", total);
 
     return 0;
+
 }
